@@ -1,6 +1,6 @@
 # PETGRAM
 
-Es un proyecto que hice por un curso que tomé de Platzi. Que finalizamos la app de un instagram de animales.
+Es un proyecto que hice por un curso que tomé de Platzi de React Avanzado. En el mismo realizamos una app similar a instagram pero de animales.
 Dejo obviamente los datos del profesor debajo.
 
 

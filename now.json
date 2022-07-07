@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "name": "petram",
+    "builds":[
+        {
+            "use": "@now/static-build",
+            "src": "package.json"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*).js",
+            "dest": "/$1.js"
+        },
+        {
+            "src": "(.*).json",
+            "dest": "/$1.json"
+        },
+        {
+            "src": "(.*).png",
+            "dest": "/$1.png"
+        },
+        {
+            "src": "/.*", 
+            "dest": "/index.html"
+        }
+    ]
+}

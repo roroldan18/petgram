@@ -13,7 +13,7 @@ const ListOfCategoriesComponent = () => {
     useEffect(() => {
       setLoading(true);
       try {
-        fetch('https://petgram-server.midudev.now.sh/categories')
+        fetch('https://petgram-server-roroldan18.vercel.app/categories')
           .then( res => res.json() )
           .then(response => {
             setCategories(response);

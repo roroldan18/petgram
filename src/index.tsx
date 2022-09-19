@@ -35,7 +35,7 @@ const client = new ApolloClient({
     authMiddleware,
     errorMiddleware,
     new HttpLink({
-      uri: "https://petgram-server-clgg.vercel.app/graphql",
+      uri: "https://petgram-server-roroldan18.vercel.app/graphql",
     })
   ])
 });
@@ -48,9 +48,7 @@ const app = createRoot(container as Element);
 app.render(
     <AuthProvider>
       <ApolloProvider client={client}>
-        <React.StrictMode>
           <App />
-        </React.StrictMode>
       </ApolloProvider>
     </AuthProvider>
 );

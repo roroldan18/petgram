@@ -73,7 +73,7 @@ module.exports = {
                                         }
                                 },
                                 {
-                                        urlPattern: new RegExp('https://petgram-server.midudev.now.sh/'),
+                                        urlPattern: new RegExp('https://petgram-server-roroldan18.vercel.app/'),
                                         handler: 'NetworkFirst',
                                         options: {
                                                 cacheName: 'api'
